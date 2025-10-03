@@ -142,7 +142,7 @@ public class listagemVIEW extends javax.swing.JFrame {
         boolean sucesso = produtosdao.venderProduto(id);
         if (sucesso) {
             javax.swing.JOptionPane.showMessageDialog(this, "Produto vendido com sucesso!");
-            listarProdutos();
+            listarProdutos(); // recarrega a listagem
         } else {
             javax.swing.JOptionPane.showMessageDialog(this, "Erro ao vender produto.");
         }
