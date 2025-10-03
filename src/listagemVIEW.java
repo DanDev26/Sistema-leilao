@@ -144,7 +144,7 @@ public class listagemVIEW extends javax.swing.JFrame {
             javax.swing.JOptionPane.showMessageDialog(this, "Produto vendido com sucesso!");
             listarProdutos(); // recarrega a listagem
         } else {
-            javax.swing.JOptionPane.showMessageDialog(this, "Erro ao vender produto.");
+            javax.swing.JOptionPane.showMessageDialog(this, "Erro ao tentar vender o produto.");
         }
     } catch (NumberFormatException e) {
         javax.swing.JOptionPane.showMessageDialog(this, "Digite um ID válido.");
